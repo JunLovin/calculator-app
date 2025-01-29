@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&display=swap');
+
+:root {
+  /* INFO: Solid Colors */
+  --semi-black: #1E201E;
+  --dark-sage: #3C3D37;
+  --sage: #697565;
+  --beige: #ECDFCC;
+  /* INFO: Font */
+  --font-family: 'Jersey 20', sans-serif;
+}
+
+/* INFO: Reset to Defaults */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--semi-black);
+  font-family: var(--font-family);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
