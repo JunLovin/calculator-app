@@ -1,0 +1,27 @@
+.text-container {
+    width: 100%;
+    padding: 2rem;
+    height: 10rem;
+}
+
+.text-container h1 {
+    background: linear-gradient(to bottom, var(--sage), var(--beige));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font-size: 4rem;
+}
+
+.text-container h1 a {
+    text-decoration: none;
+    border-bottom: 3px solid var(--sage);
+    transition: padding-bottom 60ms linear;
+}
+
+.text-container h1 a:hover {
+    padding-bottom: 3px;
+}
+
+.text-container h1 a:active {
+    padding: 0;
+}
