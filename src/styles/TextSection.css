@@ -1,11 +1,29 @@
+.container {
+    margin: 0 auto;
+    width: 82%;
+    height: 40rem;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-around;
+    padding: 4rem 5rem;
+}
+
+@media only screen and (max-width: 1400px) {
+    .container {
+        width: 100%;
+    }
+}
+
 .text-container {
     width: 100%;
-    padding: 2rem;
-    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .text-container h1 {
-    background: linear-gradient(to bottom, var(--sage), var(--beige));
+    background: linear-gradient(to bottom, var(--sage), var(--beige) 90%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;
@@ -24,4 +42,48 @@
 
 .text-container h1 a:active {
     padding: 0;
+}
+
+.text-container article {
+    margin-top: 1rem;
+    color: var(--beige);
+}
+
+.text-container article p {
+    width: 75%;
+    line-height: 1.5;
+    font-size: 1.1rem;
+    letter-spacing: .2px;
+    padding-left: .8rem;
+}
+
+.text-container article b, span {
+    font-size: 1.4rem;
+    padding: 0;
+}
+
+.text-container article span {
+    background: linear-gradient(to bottom, var(--sage), var(--beige) 90%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+.gif-container {
+    padding: 0 2rem 1rem 0;
+}
+
+.gif-container img {
+    width: 25rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: transform 80ms ease-in-out;
+}
+
+.gif-container img:hover {
+    transform: scale(102%);
+}
+
+.gif-container img:active {
+    transform: scale(100%);
 }
