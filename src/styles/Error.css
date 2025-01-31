@@ -5,7 +5,14 @@ h1.error {
     10px 10px 0px var(--beige), 
     15px 15px 0px var(--sage), 
     20px 20px 0px var(--beige), 
-    25px 25px 0px var(--sage)
+    25px 25px 0px var(--sage);
+    text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+    h1.error {
+        font-size: 10rem !important;
+    }
 }
 
 .error-container {
@@ -13,6 +20,7 @@ h1.error {
     height: 90vh;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
@@ -20,6 +28,8 @@ h1.error {
 .error-container p {
     color: var(--beige);
     font-size: 1.3rem;
+    text-align: center;
+    padding: 0 1rem;
 }
 
 .error-container .link {
