@@ -3,7 +3,7 @@ import '@styles/Calculator.css'
 
 function Calculator() {
     const [num, setNum] = useState(0)
-    const [secondNum, setSecondNum] = useState(0)
+    const [secondNum, setSecondNum] = useState('')
     const [operator, setOperator] = useState(null)
 
     const handleAddNumber = (numBtn) => {
@@ -61,7 +61,7 @@ function Calculator() {
     const handleClear = () => {
         setNum(0)
         setOperator(null)
-        setSecondNum(0)
+        setSecondNum('')
     }
 
     console.log(typeof num)
