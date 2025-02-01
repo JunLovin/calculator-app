@@ -1,5 +1,5 @@
 import '@styles/TextSection.css'
-import CatTyping from '@public/CatTyping.gif'
+import CatTyping from '@public/catTyping.gif'
 
 function TextSection() {
     
@@ -33,5 +33,4 @@ function TextSection() {
         </>
     )
 }
-
 export default TextSection;
