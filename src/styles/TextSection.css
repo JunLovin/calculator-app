@@ -43,7 +43,7 @@
 
 @media only screen and (max-width: 480px) {
     .text-container h1 {
-        font-size: 3rem;
+        font-size: 3rem !important;
     }
 }
 .text-container {
