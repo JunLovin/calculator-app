@@ -37,8 +37,13 @@
 
 @media only screen and (max-width: 900px) {
     .text-container h1 {
-        text-align: center;
         font-size: 3.5rem !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .text-container h1 {
+        font-size: 3rem;
     }
 }
 .text-container {
@@ -54,6 +59,7 @@
     -webkit-text-fill-color: transparent;
     color: transparent;
     font-size: 4rem;
+    text-align: center;
 }
 
 .text-container h1 a {
