@@ -45,6 +45,10 @@
     .text-container h1 {
         font-size: 3rem !important;
     }
+    .container {
+        width: 100% !important;
+        padding: 0 2rem !important;
+    }
 }
 .text-container {
     width: 100%;
